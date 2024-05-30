@@ -15,20 +15,27 @@ html, body{
 
 main{
     border-radius: 10px;
-    height: 75%;
+    height: 85%;
     width: 45%;
-    padding: 40px;
+    padding: 5px 40px 20px 40px;
     background-color: #ffffff;
-}
-
-section{
-    border: solid 2px blue;
 }
 
 .sec-logo{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 85%;
+    padding-bottom: 40px;
+}
+.logo{
+    text-indent: 80px;
+    font-size: 50px;
+    color: #367bf5;  
 }
 
 form{
