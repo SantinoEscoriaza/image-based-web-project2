@@ -5,15 +5,19 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
-body{
+html, body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #cfd6f1;
 }
 
 main{
     border: solid 2px red;
-    padding: 40px;
-
+    height: 75%;
+    width: 55%;
+    padding: 25px;
 }
 
 section{
