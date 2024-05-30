@@ -14,10 +14,11 @@ html, body{
 }
 
 main{
-    border: solid 2px red;
+    border-radius: 10px;
     height: 75%;
-    width: 55%;
-    padding: 25px;
+    width: 45%;
+    padding: 40px;
+    background-color: #ffffff;
 }
 
 section{
