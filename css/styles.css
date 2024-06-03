@@ -75,6 +75,14 @@ button{
     border-radius: 2px;
     background-color: #367bf5;
     color: #ffffff;
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+
+button:hover{
+    background-color: white;
+    color: #367bf5;
+    border: solid 1px #367bf5;
+    cursor: pointer;
 }
 
 /* Contenedor interno: seccion registrarse */
@@ -90,4 +98,9 @@ a{
     color: #000000;
     text-indent: 2px;
     font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
 }
